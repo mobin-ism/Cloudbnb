@@ -1,5 +1,5 @@
 class GreetingsController < ApplicationController
   def greeting
-    @name = 'Moyna'
+    @current_user = current_user
   end
 end
